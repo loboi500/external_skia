@@ -1,20 +1,3 @@
-# Copyright 2016 Google Inc.
-#
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-
-config("add_exceptions") {
-  if (is_win) {
-    cflags_cc = [ "/EHsc" ]
-  } else {
-    cflags_cc = [ "-fexceptions" ]
-  }
-}
-
-config("add_rtti") {
-  if (is_win) {
-    cflags_cc = [ "/GR" ]
-  } else {
-    cflags_cc = [ "-frtti" ]
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:20e98bfc82f2758c3ad753650b57709cd8735c7282df8e3a3635976d16e2e1e7
+size 367

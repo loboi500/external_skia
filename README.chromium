@@ -1,5 +1,3 @@
-Name: Skia
-URL: https://skia.org/
-Version: unknown
-Security Critical: yes
-License: BSD
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a1afca519b590d077fe6e9937d9b6c1e88335ffb3ac5ab069b3001fb5819a22
+size 87

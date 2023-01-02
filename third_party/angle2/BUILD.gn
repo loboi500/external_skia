@@ -1,14 +1,3 @@
-# Copyright 2016 Google Inc.
-#
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-
-declare_args() {
-}
-
-group("angle2") {
-  public_deps = [
-    "//third_party/externals/angle2:libEGL",
-    "//third_party/externals/angle2:libGLESv2",
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:eef70ea16bc18635d2930382b921f767969f995fe1fb6bd94d69735e04c9496b
+size 289

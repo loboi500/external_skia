@@ -1,12 +1,3 @@
-# Copyright 2020 Google Inc.
-#
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-
-# Skia avoids the ICU C++ API, but third_party may use it.
-# Use this config to hide the C++ API.
-# This cannot go in ../BUILD.gn because it cannot be used in a flutter build.
-# This cannot go in a .gni file because gn doesn't like configs in .gni files.
-config("no_cxx") {
-  defines = [ "U_SHOW_CPLUSPLUS_API=0" ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3dca85247a9210e03ff4a490124e4044c98a7b4b119ffed16e077088717f7ba9
+size 451

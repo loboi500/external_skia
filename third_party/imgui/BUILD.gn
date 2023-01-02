@@ -1,22 +1,3 @@
-# Copyright 2016 Google Inc.
-#
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-
-declare_args() {
-}
-
-import("../third_party.gni")
-
-third_party("imgui") {
-  public_include_dirs = [ "../externals/imgui" ]
-  public_defines = [ "IMGUI_ENABLE_OSX_DEFAULT_CLIPBOARD_FUNCTIONS" ]
-
-  sources = [
-    "../externals/imgui/imgui.cpp",
-    "../externals/imgui/imgui_demo.cpp",
-    "../externals/imgui/imgui_draw.cpp",
-    "../externals/imgui/imgui_widgets.cpp",
-    "../externals/imgui/misc/cpp/imgui_stdlib.cpp",
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e8abf7e98bd7a2971672db14eb45f73d00aee614f565a841212cca78d2591fa
+size 561

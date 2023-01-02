@@ -1,15 +1,3 @@
-import("../third_party.gni")
-
-third_party("opencl") {
-  # OpenCL C++ wrapper API, cl.hpp.
-  # (Some platforms only ship the C APIs, which cl.hpp builds on.)
-  public_include_dirs = [ "../externals/opencl-registry/api/2.1" ]
-
-  if (is_linux) {
-    libs = [ "OpenCL" ]
-  } else if (is_mac) {
-    frameworks = [ "OpenCL.framework" ]
-  } else if (is_win) {
-    libs = [ "OpenCL.lib" ]
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4549b6ba4566e0e964890cc106425b5f58a761865e8fc47d312dc5faa41481f1
+size 387

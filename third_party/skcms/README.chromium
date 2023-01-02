@@ -1,5 +1,3 @@
-Name: skcms
-URL: https://skia.org/
-Version: unknown
-Security Critical: yes
-License: BSD
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbbb44d5dc5ba4664fa68207c42799ef0c6652309a121e6a28921498a6fa1cd6
+size 88

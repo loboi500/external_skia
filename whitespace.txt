@@ -1,16 +1,3 @@
-You can modify this file to create no-op changelists (like this one).
-I LOVE W	H	I	T	E	S	P	A	C	E!
-Python also loves\n\twhitespace.¯\_(ツ)_/¯
-Lithp.
-Use the Forth.
-Life is a mistry. Everyone must WAKA WAKA WAKA
-This file has gotten so boring.
-epoger added this line using a pure git checkout
-florin was here
-more  whitespace
-all the things!!!
-Yet another line.
-
-BIOS update 20180917
-Gerrit 10k!!!
-Retry Mac bots.
+version https://git-lfs.github.com/spec/v1
+oid sha256:575f09f6d3705751d388690fb2fb84b73592775f56a7a162502f1aacb1c8a5af
+size 415

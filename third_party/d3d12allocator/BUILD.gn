@@ -1,15 +1,3 @@
-# Copyright 2020 Google Inc.
-#
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-
-declare_args() {
-}
-
-import("../third_party.gni")
-
-third_party("d3d12allocator") {
-  public_include_dirs = [ "../externals/d3d12allocator/src" ]
-
-  sources = [ "../externals/d3d12allocator/src/D3D12MemAlloc.cpp" ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a33acdec450459aac16cd32c2c4b57a38b6447b3c159922ed4e71a30c9ebb151
+size 349

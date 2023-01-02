@@ -1,15 +1,3 @@
-# Copyright 2016 Google Inc.
-#
-# Use of this source code is governed by a BSD-style license that can be
-# found in the LICENSE file.
-
-declare_args() {
-}
-
-import("../third_party.gni")
-
-third_party("native_app_glue") {
-  public_include_dirs = [ "$ndk/sources/android/native_app_glue" ]
-
-  sources = [ "$ndk/sources/android/native_app_glue/android_native_app_glue.c" ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f583062ba49d46ec4b77838dde6815c4316f0dfe9038d28652d248045fd1651f
+size 368
